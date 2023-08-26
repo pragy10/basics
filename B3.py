@@ -1,0 +1,5 @@
+x=float(input('Number of days A will take: '))
+y=float(input('Number of days B will take: '))
+z=float(input('Number of days C will take: '))
+total=(x*y*z)/(x*y+y*z+x*z)
+print('The number of days taken if A, B and C work together: ',total)
